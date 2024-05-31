@@ -10,3 +10,4 @@ RUN \
     https://github.com/unisonweb/unison/releases/latest/download/ucm-linux.tar.gz; \
   tar --extract --file ucm.tgz; \
   ln --symbolic $PWD/ucm ~/.local/bin
+ENV UCM_WEB_UI=/home/$USER/unison/ui
