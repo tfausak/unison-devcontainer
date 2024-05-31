@@ -1,0 +1,17 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "oderwat.indent-rainbow",
+        "unison-lang.unison"
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.tabSize": 2
+      }
+    }
+  }
+}
